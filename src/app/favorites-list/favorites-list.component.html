@@ -1,0 +1,12 @@
+<!doctype html>
+
+<ol>
+    <br>
+    <li>{{rp.name}}</li>
+    <p>ingredients: {{rp.ingredients}}</p>
+    <p>instruction: {{rp.instructions}}</p>
+    <p>cooking time(min): {{rp.time}}</p>
+    <br>
+</ol>
+<button (click)="exportPDF()">Download Recipe</button>
+<button onclick="localStorage.clear()">Clear</button>

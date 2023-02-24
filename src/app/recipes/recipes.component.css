@@ -1,0 +1,16 @@
+
+a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+a:hover {
+    color: #8BAAAD;
+}
+u {
+    text-decoration: none;
+}
+u:hover {
+    color: #8BAAAD;
+    cursor: pointer;
+}

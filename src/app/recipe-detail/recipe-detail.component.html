@@ -1,0 +1,27 @@
+<!doctype html>
+
+<body>
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">{{rp.name}}</h1>
+            <h4 class="card-subtitle">{{rp.description}}</h4>
+
+            <ol>
+                <br>
+                <p>Ingredients: {{rp.ingredients}}</p>
+                <p>Instructions: {{rp.instructions}}</p>
+                <p>Cooking Time: {{rp.time}} mins</p>
+                <br>
+            </ol>
+            <button class="btn btn-success" (click)="exportPDF()">Download Recipe</button>
+            <br>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- <app-favorites></app-favorites>  -->
+    <div class="container">
+        <app-rating></app-rating>
+    </div>
+</body>
