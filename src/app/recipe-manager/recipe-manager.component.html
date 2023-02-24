@@ -43,6 +43,23 @@
   </div>
   <button type="submit" class="btn btn-success">Submit</button>
   </div>
+  <div class="col-2" style="margin-right: -5%;">
+        <button type="button" class="btn btn-primary" (click)="initialLoad()">Generate Recipe</button>
+    </div>
+
+
+    <div class="col-3" style="margin-right: -15%;">
+        <button type="button" class="btn btn-primary" (click)="addRecipe()">Add Recipe</button>
+    </div>
+
+    <div class="col-5">
+        <button type="button" class="btn btn-primary" (click)="getRecipes()">Get Recipe</button>
+    </div>
+
+    <div class="col-3" style="margin-left: 11.5%;"> 
+        <button type="button" class="btn btn-primary" (click)="deleteExistingRecipe()">Delete</button>
+        <input type="text" [(ngModel)]="deleteRecipeName">
+    </div>
 </form>
 
     <!-- Optional JavaScript -->
@@ -86,7 +103,7 @@
     <input type="text" [(ngModel)]="recipeFavorites">
 
 
-    <div class="col-2" style="margin-right: -5%;">
+  <div class="col-2" style="margin-right: -5%;">
         <button type="button" class="btn btn-primary" (click)="initialLoad()">Generate Recipe</button>
     </div>
 
@@ -104,5 +121,5 @@
         <input type="text" [(ngModel)]="deleteRecipeName">
     </div>
 
-</div> -->
-<!-- </body> -->
+</div>
+</body>  -->
